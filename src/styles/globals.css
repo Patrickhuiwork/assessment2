@@ -4,11 +4,9 @@
 
 :root {
   /* Color styles */
-  --sage: rgba(181, 201, 127, 1);
-  --taupe: rgba(63, 57, 53, 1);
-  --dun: rgba(230, 204, 178, 1);
-  --seasalt: rgba(247, 247, 249, 1);
-  --isabelline: rgba(242, 236, 231);
+  --primary: rgba(63, 57, 53, 1);
+  --secondary: rgba(242, 236, 231);
+  --tertiary: rgba(247, 247, 249, 1);
 
   /* Font styles */
 
@@ -27,7 +25,7 @@
 }
 
 body {
-background-color: var(--isabelline);
+background-color: var(--secondary);
 font-family:  'Satoshi', sans-serif;
 padding: 0;
 margin: 0;

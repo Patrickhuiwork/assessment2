@@ -17,6 +17,7 @@
     font-size: var(--s-h1);
     font-weight: 700;
     text-align: center;
+    color: var(--primary);
 }
 
 .description{
@@ -27,6 +28,7 @@
 .pricing{
     font-size: var(--h3);
     text-align: center;
+    color: var(--primary);
 }
 
 .container{
@@ -39,9 +41,9 @@
 
 .cardbutton {
     margin-top: 2rem;
-    background-color: var(--isabelline);
+    background-color: var(--secondary);
     border: none;
-    color: var(--taupe);
+    color: var(--primary);
     font-weight: 700;
     font-size: var(--s-h2);
     text-align: center;
@@ -52,7 +54,7 @@
     padding: .5rem 1.5rem .5rem 1.5rem;
     border-radius: 2rem;
     box-shadow: 0px 4px 2px -2px rgba(0, 0, 0, 0.5);
-    
+
     @media screen and (max-width: 768px) {
         margin-top: 1rem;
     }

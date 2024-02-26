@@ -1,6 +1,7 @@
 .main{
-    min-height: 100vh;
-    background-color: var(--seasalt);
+    min-height: 110vh;
+    background-color: var(--tertiary);
+    color: var(--primary);
     padding-left: 5vw;
     padding-right: 5vw;
 }
@@ -12,7 +13,6 @@
 .title{
     font-size: var(--title);
     font-weight: 700;
-    color: var(--taupe);
     margin-top: 0;
     margin-bottom: 0;
     text-align: center;
@@ -36,7 +36,6 @@
 
 .subtitle{
     font-size: var(--h4);
-    color: var(--taupe);
     text-align: center;
     @media screen and (max-width: 768px){
         width: 100%;

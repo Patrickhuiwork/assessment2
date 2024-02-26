@@ -1,0 +1,24 @@
+.footer{
+    height: 40vh;
+    background-color: var(--secondary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footersection{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    cursor: pointer;
+    gap: 2rem;
+}
+
+.border{
+    padding-top: 2rem;
+    margin-top: 2rem;
+    border-top: 2px solid var(--primary);
+    width: 90vw;
+    text-align: center;
+}

@@ -19,7 +19,7 @@
 .title{
     font-size: var(--title);
     font-weight: 700;
-    color: var(--taupe);
+    color: var(--primary);
     margin-top: 0;
     margin-bottom: 0;
     @media screen and (max-width: 768px){
@@ -32,7 +32,7 @@
 
 .subtitle{
     font-size: var(--s-h1);
-    color: var(--taupe);
+    color: var(--primary);
     @media screen and (max-width: 768px){
         width: 100%;
     }
@@ -40,9 +40,9 @@
 
 .signup{
     margin-top: 2rem;
-    background-color: var(--taupe);
+    background-color: var(--primary);
     border: none;
-    color: var(--seasalt);
+    color: var(--tertiary);
     font-weight: 700;
     font-size: var(--s-h2);
     text-align: center;

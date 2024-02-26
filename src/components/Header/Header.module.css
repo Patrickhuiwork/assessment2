@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    background-color: var(--seasalt);
+    background-color: var(--tertiary);
     padding-left: 5vw;
     padding-right: 5vw;
     height: 10vh;
@@ -12,16 +12,16 @@
 
 .logo{
     width: 200px;
+    cursor: pointer;
     @media screen and (max-width: 768px){
-        width: 180px;
-        
+        width: 150px;
     }
 }
 
 .signup{
-    background-color: var(--taupe);
+    background-color: var(--primary);
     border: none;
-    color: var(--seasalt);
+    color: var(--tertiary);
     font-weight: 700;
     font-size: var(--b1);
     text-align: center;
@@ -31,4 +31,40 @@
     padding: .5rem 1.5rem .5rem 1.5rem;
     border-radius: 2rem;
     box-shadow: 2px 4px 2px -2px rgba(0,0,0,0.25);
+}
+
+.headersection{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    cursor: pointer;
+    gap: 5rem;
+   @media screen and (max-width: 768px){
+        display: none;      
+    }
+}
+
+.headersectionmobile{
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    gap: 1rem;
+    display: none;
+    @media screen and (max-width: 768px){
+        display: flex;
+    }
+}
+
+.hamburger{
+    height: 20px;
+}
+
+
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
 }
