@@ -1,13 +1,12 @@
 .main{
-    height: 100vh;
+    min-height: 100vh;
     background-color: var(--seasalt);
-    padding-left: 2.5vw;
-    padding-right: 2.5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 .herotext{
-    padding-top: 5vh;
-    padding-bottom: 2vh;
+    padding-top: 10vh;
 }
 
 .title{
@@ -16,13 +15,29 @@
     color: var(--taupe);
     margin-top: 0;
     margin-bottom: 0;
+    text-align: center;
     @media screen and (max-width: 768px){
+        font-size: var(--h1);
     }
 }
 
+.cardsection{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+    gap: 2rem;
+    @media screen and (max-width: 768px){
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
 .subtitle{
-    font-size: var(--s-h1);
+    font-size: var(--h4);
     color: var(--taupe);
+    text-align: center;
     @media screen and (max-width: 768px){
         width: 100%;
     }

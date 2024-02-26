@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from './Benefits.module.css'
+import Card from './Card'
 
 export default function Benefits() {
   return (
@@ -9,7 +10,7 @@ export default function Benefits() {
             <h2 className={classes.subtitle}>Tea is a great way to relax and unwind. It also has many health benefits.</h2>
         </div>
         <div className={classes.cardsection}>
-
+            <Card/>
         </div>
     </div>
   )
