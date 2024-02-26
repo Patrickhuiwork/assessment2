@@ -9,6 +9,7 @@
   --dun: rgba(230, 204, 178, 1);
   --seasalt: rgba(247, 247, 249, 1);
   --isabelline: rgba(242, 236, 231);
+  --background1: #F7FFE1;
 
   /* Font styles */
 
@@ -27,6 +28,8 @@
 }
 
 body {
+background-color: var(--background1);
+font-family:  'Satoshi', sans-serif;
 padding: 0;
 margin: 0;
 }
