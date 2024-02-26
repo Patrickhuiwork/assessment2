@@ -17,7 +17,8 @@
 .signup{
     background-color: var(--taupe);
     border: none;
-    color: var(--seasalt);
+    color: var(--background1);
+    font-weight: 700;
     font-size: var(--b1);
     text-align: center;
     align-items: center;
