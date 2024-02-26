@@ -1,0 +1,29 @@
+.main{
+    height: 100vh;
+    background-color: var(--seasalt);
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+}
+
+.herotext{
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+}
+
+.title{
+    font-size: var(--title);
+    font-weight: 700;
+    color: var(--taupe);
+    margin-top: 0;
+    margin-bottom: 0;
+    @media screen and (max-width: 768px){
+    }
+}
+
+.subtitle{
+    font-size: var(--s-h1);
+    color: var(--taupe);
+    @media screen and (max-width: 768px){
+        width: 100%;
+    }
+}   

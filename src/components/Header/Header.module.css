@@ -3,7 +3,10 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    margin-top: .5rem
+    background-color: var(--seasalt);
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    height: 10vh;
 }
 
 .logo{
@@ -17,7 +20,7 @@
 .signup{
     background-color: var(--taupe);
     border: none;
-    color: var(--background1);
+    color: var(--seasalt);
     font-weight: 700;
     font-size: var(--b1);
     text-align: center;

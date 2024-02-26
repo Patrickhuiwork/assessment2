@@ -9,7 +9,6 @@
   --dun: rgba(230, 204, 178, 1);
   --seasalt: rgba(247, 247, 249, 1);
   --isabelline: rgba(242, 236, 231);
-  --background1: #F7FFE1;
 
   /* Font styles */
 
@@ -28,7 +27,7 @@
 }
 
 body {
-background-color: var(--background1);
+background-color: var(--isabelline);
 font-family:  'Satoshi', sans-serif;
 padding: 0;
 margin: 0;
@@ -39,10 +38,6 @@ margin: 0;
 }
 
 main{
-  padding-left: 3vw;
-  padding-right: 3vw;
   @media screen and (min-width: 768px){
-    padding-left: 3svw;
-    padding-right: 3svw;
   }
 }
