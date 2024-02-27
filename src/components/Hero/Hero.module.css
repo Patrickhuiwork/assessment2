@@ -1,12 +1,14 @@
 .main{
-    height: 90vh;
+    height: 100vh;
     padding-left: 5vw;
     padding-right: 5vw;
 }
 
 .hero{
-    margin-top: 15vh;
+    margin-top: 20vh;
     justify-content: space-between;
+    flex-direction: row;
+    display: flex;
 }
 
 .heroText{
@@ -55,4 +57,11 @@
     @media screen and (max-width: 768px){
         margin-top: 1rem;
     }
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
