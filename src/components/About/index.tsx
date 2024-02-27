@@ -10,7 +10,7 @@ export default function About() {
             <p className={classes.paragraph}>Join us on this journey towards wellness, one cup at a time.</p>
             <div className={classes.newsletter}>
                 <div className={classes.box}>
-                    <h3>Join Our News Letter</h3>
+                    <h3>Join Our News Letter to Stay Updated!</h3>
                     <form>
                         <input type="email" placeholder="Email" className={classes.email}/>
                         <button type="submit" className={classes.submit}>Get Notified</button>

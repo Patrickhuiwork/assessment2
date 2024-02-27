@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './Hero.module.css';
+import Spline from '@splinetool/react-spline';
 
 export default function Hero() {
     return (
@@ -15,6 +16,9 @@ export default function Hero() {
                     <button className={classes.signup}>
                         Get Started
                     </button>
+                </div>
+                <div className={classes.heroImage}>
+                    <Spline scene="https://prod.spline.design/ulRkzavVBqc2T9vM/scene.splinecode" className={classes.heroanim}/>
                 </div>
             </div>
         </div>

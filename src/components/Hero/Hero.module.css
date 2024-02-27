@@ -9,10 +9,12 @@
     justify-content: space-between;
     flex-direction: row;
     display: flex;
+    @media screen and (max-width: 768px){
+        flex-direction: column;
+    }
 }
 
 .heroText{
-    max-width: 700px;
     @media screen and (max-width: 768px){
         width: 100%;
     }
@@ -59,9 +61,10 @@
     }
 }
 
-.background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
+
+.heroImage{
+    width: 50%;
+    @media screen and (max-width: 768px){
+        width: 100%;
+    }
 }
