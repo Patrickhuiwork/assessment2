@@ -6,12 +6,15 @@
     justify-content: space-between;
     display: flex;
     flex-direction: row;
+    @media screen and (max-width: 1200px){
+        flex-direction: column;
+    }
 }
 
 .container{
     width: 50%;
     margin-top: 10vh;
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 1200px){
         width: 100%;
         
     }
@@ -23,7 +26,7 @@
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 0;
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 1200px){
         font-size: var(--h1);
     }
 }
@@ -41,7 +44,7 @@
     border-radius: 2rem;
     width: auto;
     box-shadow: 2px 4px 2px -2px rgba(0,0,0,0.5);
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 1200px){
         width: 100%;
         
     }
@@ -60,7 +63,7 @@
 .box form {
     display: flex;
     width: 100%;
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 1200px){
         flex-direction: column;
         
     }
@@ -76,7 +79,7 @@
     background-color: transparent;
     outline: none;
     margin-right: 2rem;
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 1200px){
         width: 100%;
         
     }
@@ -95,6 +98,13 @@
     @media screen and (max-width: 768px){
         width: 100%;
         margin-top: 1rem;
+        
+    }
+}
+
+.spline{
+    @media screen and (max-width: 1200px){
+        display: none;
         
     }
 }
