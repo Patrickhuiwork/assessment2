@@ -2,7 +2,8 @@
 ## Created by 
 * Patrick
 ## Description
-description
+Landing page for MoodBrew which is a application that you can search for teas to treat different symptoms.
 ## Dependencies/Installations
-* list
+* npm install
+* npm i @splinetool/react-spline
 
