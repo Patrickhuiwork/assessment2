@@ -1,7 +1,7 @@
 .card{
     width: 33%;
-    height: 50vh;
-    padding: 1rem;
+    height: auto;
+    padding: 2rem;
     background-color: white;
     border-radius: 1rem;
     display: flex;
@@ -58,4 +58,7 @@
     @media screen and (max-width: 768px) {
         margin-top: 1rem;
     }
+}
+
+.benefits{
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from './About.module.css'
+import Spline from '@splinetool/react-spline'
 
 export default function About() {
   return (
@@ -18,6 +19,7 @@ export default function About() {
                 </div>
             </div>
         </div>
+        <Spline scene="https://prod.spline.design/i1gBDY9MKs0YYHmJ/scene.splinecode" className={classes.spline}/>
     </div>
   )
 }
