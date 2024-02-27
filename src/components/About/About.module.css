@@ -31,3 +31,56 @@
 .paragraph{
     font-size: var(--s-h1);
 }
+
+.newsletter{
+    margin-top: 10vh;
+    background-color: var(--tertiary);
+    padding: 5vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    width: auto;
+    box-shadow: 2px 4px 2px -2px rgba(0,0,0,0.5);
+    @media screen and (max-width: 768px){
+        width: 100%;
+        
+    }
+}
+
+.box{
+    width: 100%;
+}
+
+.box h3 {
+    font-size: var(--s-h1);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.box form {
+    display: flex;
+    width: 100%;
+}
+
+.email {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid var(--primary);
+    background-color: transparent;
+    outline: none;
+}
+
+.submit {
+    border: none;
+    background-color: var(--primary);
+    color: var(--tertiary);
+    font-size: var(--b1);
+    font-weight: 600;
+    cursor: pointer;
+    width: 30%;
+    padding: .5rem 1.5rem .5rem 1.5rem;
+    border-radius: 10rem;
+}
