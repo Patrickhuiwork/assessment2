@@ -19,7 +19,9 @@ export default function About() {
                 </div>
             </div>
         </div>
-        <Spline scene="https://prod.spline.design/i1gBDY9MKs0YYHmJ/scene.splinecode" className={classes.spline}/>
+        <div className={classes.model}>
+        <Spline scene="https://prod.spline.design/uf-SlDR4hEq4XuVP/scene.splinecode" />
+        </div>
     </div>
   )
 }

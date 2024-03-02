@@ -1,7 +1,8 @@
 .main{
-    min-height: 100vh;
+    height: auto;
     padding-left: 5vw;
     padding-right: 5vw;
+    padding-bottom: 10vh;
     color: var(--primary);
     justify-content: space-between;
     display: flex;
@@ -102,7 +103,8 @@
     }
 }
 
-.spline{
+.model{
+    width: 500px;
     @media screen and (max-width: 1200px){
         display: none;
         

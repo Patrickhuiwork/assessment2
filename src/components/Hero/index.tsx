@@ -17,9 +17,7 @@ export default function Hero() {
                         Get Started
                     </button>
                 </div>
-                <div className={classes.heroImage}>
-                    <Spline scene="https://prod.spline.design/ulRkzavVBqc2T9vM/scene.splinecode" className={classes.heroanim}/>
-                </div>
+                <Spline scene="https://prod.spline.design/ulRkzavVBqc2T9vM/scene.splinecode" />
             </div>
         </div>
     );

@@ -1,11 +1,11 @@
 .card{
     width: 33%;
-    height: auto;
     padding: 2rem;
     background-color: white;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
     color: var(--taupe);
     box-shadow: 2px 4px 2px -2px rgba(0,0,0,0.5);
     @media screen and (max-width: 768px){
@@ -60,5 +60,8 @@
     }
 }
 
-.benefits{
+.model{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 2rem;
 }

@@ -1,5 +1,5 @@
 .main{
-    height: 100vh;
+    height: 80vh;
     padding-left: 5vw;
     padding-right: 5vw;
 }
@@ -58,13 +58,5 @@
     box-shadow: 2px 4px 2px -2px rgba(0,0,0,0.5);
     @media screen and (max-width: 768px){
         margin-top: 1rem;
-    }
-}
-
-
-.heroImage{
-    width: 50%;
-    @media screen and (max-width: 768px){
-        width: 100%;
     }
 }
