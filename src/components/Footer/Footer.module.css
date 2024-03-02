@@ -10,7 +10,7 @@
 .footersection{
     display: flex;
     justify-content: space-between;
-    margin-top: 2rem;
+    margin-top: 1rem;
     cursor: pointer;
     gap: 2rem;
 }
@@ -21,4 +21,8 @@
     border-top: 2px solid var(--primary);
     width: 90vw;
     text-align: center;
+}
+
+.link{
+    margin-top: .5rem;
 }

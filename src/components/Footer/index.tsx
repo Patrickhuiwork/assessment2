@@ -12,7 +12,10 @@ export default function Footer() {
                 <p className={classes.link}>Products</p>
             </div>
         </div>
-        <p className={classes.border}>© MoodBrew</p>
+        <p className={classes.border}>© Patrick Hui</p>
+        <a href='https://github.com/NeemaToto/MoodBrew'>
+          <p className={classes.link}>MoodBrew Repository</p>
+        </a>
     </footer>
   )
 }
